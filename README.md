@@ -29,7 +29,7 @@ docker build -t imagename .
 This assumes that your Dockerfile is named Dockerfile (no file extension), and it's in the current directory. The -t flag allows you to tag the image with a name of your choice 
 
 
-Running the Docker Container:
+__Running the Docker Container__
 
 Once the image is built, you can run a container:
 
