@@ -31,3 +31,8 @@ This assumes that your Dockerfile is named Dockerfile (no file extension), and i
 
 Running the Docker Container:
 
+Once the image is built, you can run a container:
+
+docker run -p 8080:80 custom-nginx
+
+
