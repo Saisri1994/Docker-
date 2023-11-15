@@ -13,8 +13,6 @@ COPY index.html /usr/share/nginx/html/: Copies your custom index.html file to th
 
 EXPOSE 80: Informs Docker that the container will listen on the specified network ports at runtime.
 
-CMD ["nginx", "-g", "daemon off;"]: Specifies the command to run when the container starts. In this case, it runs Nginx in the foreground.
-
 
 Make sure to place the Dockerfile in the same directory as your index.html file.
 
@@ -34,5 +32,7 @@ __Running the Docker Container__
 Once the image is built, you can run a container:
 
 docker run -p 8080:80 custom-nginx
+
+
 
 
